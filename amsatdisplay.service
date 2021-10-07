@@ -1,0 +1,11 @@
+[Unit]
+Description=AMSAT-DL remote converter display
+After=multi-user.target
+
+[Service]
+ExecStart=/usr/local/bin/amsatdisplay
+User=pi
+
+[Install]
+WantedBy=multi-user.target
+
