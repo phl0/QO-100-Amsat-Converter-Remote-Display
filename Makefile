@@ -14,5 +14,5 @@ clean:
 
 install:
 	chmod 755 amsatdisplay ad
-	sudo ./amsatdisplay
+	cp -f amsatdisplay /usr/local/bin/
 	
